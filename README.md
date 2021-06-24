@@ -2,8 +2,8 @@
 
 I did automation testing in 2 ways
 
- - atg-automation-cypress
- - atg-automation-selenium
+ - Cypress (atg-test-cypress)
+ -  Selenium (atg-test-selenium)
 
 ## Automation using cypress.io
 
@@ -12,13 +12,13 @@ I did automation testing in 2 ways
  - Windows: npx cypress open
  - Linux: npm cypress open
  - It will open the cypress console where you have testcases for V4Race
- - Location of testcases is in atg-automation-cypress/cypress/integration
- - Videos of testcase is found at atg-automation-cypress/cypress/video
+ - Location of testcases is in atg-test-cypress/cypress/integration
+ - Videos of testcase is found at atg-test-cypress/cypress/video
 
 ## Automation using Selenium
 It's a maven project written using Junit and Selenium.
 
  - I have used default browser as chrome, but you can pass browser option as maven command line argument.
- - Command to run test from atg-automation-selenium  mvn test
+ - Command to run test from atg-test-selenium as :   mvn test
  - I have tested using firefox and chrome, you can provide driver option while running testcases as given below
  - command : mvn test -DdriverType=firefox
